@@ -1,16 +1,43 @@
-# assignment
+# 승호's Tasks
 
-A new Flutter project.
+Flutter로 개발된 간단한 할 일 관리 애플리케이션입니다.
 
-## Getting Started
+## ✨ 주요 기능
 
-This project is a starting point for a Flutter application.
+- **할 일 추가**: 플로팅 액션 버튼을 통해 새로운 할 일을 추가할 수 있습니다.
+- **할 일 데이터 관리**: 할 일은 제목, 설명, 중요 여부, 완료 상태를 포함하는 객체로 관리됩니다.
 
-A few resources to get you started if this is your first Flutter project:
+현재 UI는 할 일을 추가하는 기능만 구현되어 있으며, 추가된 할 일을 목록으로 보여주는 기능은 개발 예정입니다.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 화면 구성
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+현재 앱의 메인 화면은 다음과 같이 구성되어 있습니다.
+
+- 상단 앱 바에 **'승호's Tasks'** 라는 제목이 표시됩니다.
+- 중앙에는 환영 이미지와 함께 "아직 할 일이 없음"이라는 안내 메시지가 표시됩니다.
+- 우측 하단의 추가(+) 버튼을 누르면, 화면 하단에 새로운 할 일을 입력할 수 있는 입력창이 나타납니다.
+
+## 🚀 시작하기
+
+프로젝트를 로컬에서 실행하려면 다음 단계를 따르세요.
+
+1.  **저장소 클론:**
+    ```bash
+    git clone https://github.com/todayslibera-dev/tasks.git
+    cd tasks
+    ```
+
+2.  **의존성 설치:**
+    ```bash
+    flutter pub get
+    ```
+
+3.  **앱 실행:**
+    ```bash
+    flutter run
+    ```
+
+## 🛠️ 사용된 기술
+
+- **프레임워크**: Flutter
+- **언어**: Dart
